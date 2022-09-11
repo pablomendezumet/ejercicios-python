@@ -6,12 +6,15 @@ enteros, a parƟr de allí mostrar los siguientes mensajes: Si el usuario no mar
 ninguno de los números, indicarlo diciendo “El jugador tiene mala suerte, no marcó 
 ninguna casilla”. Caso contrario mostrar “El jugador marcó algún número de la tarjeta”.
 """
+import random
 #Definicion de variables
 
-#Inicializar variables
-
 #Proceso
+for i in range(15):
+    numeros = random.randint(1, 100)
+    numcartilla = numeros
 
+    print(str(numcartilla),list[i])
 #Salida
 
 #Prueba en la Shell
