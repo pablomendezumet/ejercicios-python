@@ -13,7 +13,7 @@ import random
 for i in range(15):
     numeros = random.randint(1, 100)
     numcartilla = numeros
-
+    
     print(str(numcartilla),list[i])
 #Salida
 
