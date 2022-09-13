@@ -11,10 +11,18 @@ import random
 
 #Proceso
 for i in range(15):
-    numeros = random.randint(1, 100)
-    numcartilla = numeros
-    
-    print(str(numcartilla),list[i])
+    val1 = random.randint(1, 100)
+    print(str(val1),end=' ')
+
+
+print()
+print("Ingresa tres numeros: ")
+n1 = input("Nro. 1 >> ")
+n2 = input("Nro. 2 >> ")
+n3 = input("Nro. 3 >> ")
+
+
+
 #Salida
 
 #Prueba en la Shell
