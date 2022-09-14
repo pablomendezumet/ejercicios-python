@@ -7,13 +7,16 @@ ninguno de los números, indicarlo diciendo “El jugador tiene mala suerte, no 
 ninguna casilla”. Caso contrario mostrar “El jugador marcó algún número de la tarjeta”.
 """
 import random
+
 #Definicion de variables
+cartillas = int()
+#Inicializar variables
 
 #Proceso
 for i in range(15):
     val1 = random.randint(1, 100)
-    print(str(val1),end=' ')
-
+    cartillas = list[val1]
+    print(cartillas,end=' ')
 
 print()
 print("Ingresa tres numeros: ")
