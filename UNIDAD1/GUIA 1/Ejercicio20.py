@@ -9,20 +9,41 @@ ninguna casilla”. Caso contrario mostrar “El jugador marcó algún número d
 import random
 
 #Definicion de variables
-cartillas = int()
+nros = int()
+cartilla = int()
+cas1 = int()
+cas2 = int()
+cas3 = int()
 #Inicializar variables
-
+cartilla=[]
+contador = 0
 #Proceso
-for i in range(15):
-    val1 = random.randint(1, 100)
-    cartillas = list[val1]
-    print(cartillas,end=' ')
 
-print()
+# Otra forma de lectura de los 15 numeros aleatorios entre el rango 1 al 100
+#for i in range(15):
+#    if contador <= i:
+#        nros = random.randint(1,100)
+#        cartilla.append(nros)
+#    print(cartilla)
+
+while contador <= 15:
+    nros = random.randint(1,101)
+    cartilla.append(nros)
+    contador += 1
+
+print(cartilla)
 print("Ingresa tres numeros: ")
-n1 = input("Nro. 1 >> ")
-n2 = input("Nro. 2 >> ")
-n3 = input("Nro. 3 >> ")
+cas1 = int(input("Nro. 1 >> "))
+cas2 = int(input("Nro. 2 >> "))
+cas3 = int(input("Nro. 3 >> "))
+
+#comprobamos si uno de los valores ingresados pertenece a la tarjeta generada
+
+if cas1 in cartilla or cas2 in cartilla or cas3 in cartilla:
+    print("El jugador marcó algún número de la tarjeta")
+else:
+    print("El jugador tiene mala suerte, no marcó ninguna casilla")
+
 
 
 
