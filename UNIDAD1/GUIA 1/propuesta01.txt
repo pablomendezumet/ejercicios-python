@@ -1,0 +1,109 @@
+**Esta guía contiene enunciados de algunos ejercicios para aplicar los conceptos 
+de programación en Python variables, tipos, constantes y condicionales (if) operaciones.
+La guía se propone como fuente de ejercicios generales. Se sugiere intentar resolver 
+cada uno de estos problemas ya sea trabajando solos o en grupos de estudio.**
+
+1. Desarrolle un programa que pase un peso de kilogramo a libras teniendo en cuenta 
+que cada kilogramo equivale a 2.2 libras.
+2. Escribir un programa que pregunte un nombre de usuario, y que después muestre por 
+pantalla si su cantidad de letras es par o impar.
+    
+    
+    | Entrada | Salida |
+    | --- | --- |
+    | camilo | par |
+    | sol | impar |
+3. Escriba un programa que transforme todas las letras de una palabra en mayúsculas, 
+minúsculas y la primera con minúsculas(capitalización).
+    
+    
+    | Entrada | Salida |
+    | --- | --- |
+    | HamAcA | → HAMACA hamaca Hamaca |
+    | caMiNo | → CAMINO camino Camino |
+
+4. Cuadrado de un binomio. Plantear un script directamente en el shell de Python, que 
+permita mostrar, para dos valores 𝑎 y 𝑏, que: Un binomio al cuadrado (suma) es igual al 
+cuadrado del primer término, más el doble producto del primero por el segundo más el 
+cuadrado del segundo.
+
+5. Área de un triángulo. Desarrolle un programa para calcular el área de un triángulo, 
+cargando por teclado el valor de la base, pero sabiendo que su altura es igual al cuadrado 
+de la base.
+
+6. Últimos dígitos ¿Cómo usaría el operador resto (%) para obtener el valor del último 
+dígito de un número entero? ¿Y cómo obtendría los dos últimos dígitos? Desarrolle un 
+programa que cargue un número entero por teclado, y muestre el último dígito del mismo 
+(por un lado) y los dos últimos dígitos (por otro lado).
+
+7. Conversión de medidas. Desarrolle un programa para convertir una medida dada en pies 
+a sus equivalentes en: yardas pulgadas cenơmetros metros Sabiendo que: 1 pie = 12 pulgadas 
+1 yarda = 3 pies 1 pulgada = 2.54 centímetros 1 metro = 1000
+
+8. Ingresar la cantidad de números de la sucesión de Fibonacci a mostrar.
+
+9. Multiplicación. Ingresar un número cualquiera por teclado y que muestre su respectiva 
+tabla del 1 al 10.
+
+10. Escribir un programa que pida dos números y muestre como resultado su división, 
+cociente y resto.
+
+11. Crear un conversor de dólares a pesos y pesos a dólares, donde se ingrese por teclado 
+el valor del peso actual.
+
+12. Ahorros. Escribir un programa en el cual muestre a fin de año el total de ahorro 
+obtenido, si se pide en cada mes el 10% del sueldo ganado.
+
+13. Crear un conversor de pies y pulgadas a centímetros.
+14. Se desea un programa que: solicite al usuario un nombre, un apellido y el dominio y 
+luego, proponga una dirección de mail para el nombre y apellido ingresado de acuerdo a 
+las siguientes reglas: Componer la dirección de correo de la siguiente manera: @ Por 
+ejemplo para Nombre = Felipe, Apellido= Steffolani y Dominio= umet.edu.ar la dirección 
+de mail sería: [fsteffolani@umet.edu.ar](mailto:fsteffolani@umet.edu.ar). Pero si la primera 
+primera letra del nombre y la primera letra del apellido son la misma entonces uƟlizar: .@ Por 
+ejemplo para Nombre= Soledad, Apellido= Steffolani y Dominio= colegiorosarito.edu.ar la 
+dirección de mail sería: [soledad.steffolani@umet.edu.ar](mailto:soledad.steffolani@umet.edu.ar)
+
+15. Suma - División - Potencia. Se necesita desarrollar un programa que permita calcular la 
+suma de tres números. Si el resultado es mayor a 10 dividir por 2 (mostrar su resultado sin 
+decimales), en caso contrario elevar el resultado al cubo.
+
+16. Jornal de un Operario. Se necesita desarrollar un programa para el área de recursos 
+humanos de una empresa que permita informar el jornal de un determinado operario. Usted 
+deberá cargar por teclado el código de turno que el operario trabajó ese día (1- representa 
+Diurno y 2- representa Nocturno) y la cantidad de horas trabajadas. La política de trabajo 
+en la empresa es que los operarios de la misma pueden trabajar en el turno diurno o nocturno. 
+Si un operario trabaja en el turno nocturno el pago es 40.60 pesos la hora, si lo hace en el 
+turno diurno cobra 35.50 pesos la hora.
+
+17. Galería de Arte. Una galería de arte desea preparar un catálogo de sus cuadros más famosos. 
+Se realiza una prueba con tres cuadros y por cada uno se ingresa el año en que fue creado. 
+El programa deberá verificar si todos los cuadros son anteriores al siglo XX (El siglo XX 
+es el siglo pasado. Se inició en el año 1901 y terminó en el año 2000). Determinar cuántos 
+tienen antigüedad inferior a 10 años. Si no hay ninguno, imprimir el mensaje “Renovar stock”.
+
+18. Tarjeta de Bingo. Realizar un programa que genere 15 números aleatorios enteros en el 
+rango del 1 al 100, que representaría la tarjeta de bingo de una persona. Una vez generado 
+los números aleatorios solicitar al usuario que ingrese 3 números enteros, a parƟr de allí 
+mostrar los siguientes mensajes: Si el usuario no marcó ninguno de los números, indicarlo 
+diciendo “El jugador tiene mala suerte, no marcó ninguna casilla”. Caso contrario mostrar 
+“El jugador marcó algún número de la tarjeta”.
+
+19. Elecciones presidenciales. Según la Ley Electoral de la República ArgenƟna, el Presidente 
+y el Vicepresidente se eligen de acuerdo a las siguientes reglas: Artículo 149. — Resultará 
+electa la fórmula que obtenga más del cuarenta y cinco por ciento (45 %) de los votos 
+afirmativos válidamente emitidos; en su defecto, aquella que hubiere obtenido el cuarenta 
+por ciento (40 %) por lo menos de los votos afirmativos válidamente emitidos y, además, 
+existiere una diferencia mayor de diez puntos porcentuales respecto del total de los votos 
+afirmativos válidamente emitidos sobre la fórmula que le sigue en número de votos.
+Artículo 150. — Si ninguna fórmula alcanzare esas mayorías y diferencias de acuerdo al 
+escrutnio ejecutado por las Juntas Electorales, y cuyo resultado único para toda la Nación 
+será anunciado por la Asamblea Legislativa atento lo dispuesto por el arơculo 120 de la 
+presente ley, se realizará una segunda vuelta dentro de los treinta (30) días.
+Articulo 151. — En la segunda vuelta parƟciparán solamente las dos fórmulas más votadas 
+en la primera, resultando electa la que obtenga mayor número de votos afirmativos válidamente 
+emiƟdos. 
+Desarrollar un programa que permita ingresar, para los 3 parados más votados: fórmula 
+(presidente + vice) y cantidad de votos obtenidos. Luego determinar: Qué fórmula obtuvo 
+el mayor porcentaje. Si la fórmula resulta elegida o se requiere segunda vuelta. En este 
+caso, indicar también quienes parƟcipan de la segunda vuelta.
