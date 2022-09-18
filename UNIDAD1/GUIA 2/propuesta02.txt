@@ -1,0 +1,70 @@
+**Esta guía contiene enunciados de algunos ejercicios para aplicar los conceptos
+ de programación en Python como for y while combinado if y anidaciones.
+La guía se propone como fuente de ejercicios generales. Se sugiere intentar resolver
+ cada uno de estos problemas ya sea trabajando solos o en grupos de estudio.**
+
+1. Ciclistas: La final de una carrera de ciclistas tiene n competidores (n se ingresa por teclado). Desarrollar un programa que permita cargar, por cada competidor, nombre y tiempo de carrera. Luego se pide:
+    a) Determinar y mostrar el nombre del ganador de la carrera.
+    b) Ingresar por teclado el tiempo record registrado para dicha carrera. Determinar si el tiempo del ganador es menor al tiempo record, mostrar un mensaje.
+    c) Calcular y mostrar el tiempo promedio entre todos los ciclistas.
+
+2. Secuencia de impares. Cargar por teclado dos números, e imprimir los números impares 
+que se encuentran comprendidos entre ellos, en forma ascendente y descendente.
+
+3. Sueldos y aguinaldo. Ingresar por teclado los sueldos de un vendedor, correspondientes 
+al primer semestre del año y luego:
+    a) Calcular su aguinaldo, sabiendo que es la mitad del sueldo más alto del período.
+    b) Determinar en qué mes recibió el sueldo más bajo del período.
+    c) Informar el sueldo promedio del semestre.
+
+4. Decimal a Hexadecimal: Generar n números aleatorios entre el rango de 5000 y 450000, por 
+cada uno de ellos mostrar y generar el numero hexadecimal.
+
+5. Analisis de Texto.
+El usuario ingresa una frase al comenzar el programa, la misma no puede tener longitud cero. 
+La frase finaliza con un punto, y las palabras están separadas por espacios únicamente. 
+Se debe mostrar:
+    a) Ver el porcentaje de vocales respecto del total de letras de la frase.
+    b) La longitud promedio de las palabras.
+    c) La longitud de la palabra mas larga del texto.
+    d) Cantidad de palabras que comienzan con "ta".
+
+6. Mostrar por pantalla el promedio de los números ingresados por teclado. Se deja de pedir 
+que el usuario agregue números una vez ingrese 0 (cero).
+
+7. Complejo de cines Desarrollar un programa que permita procesar funciones de un complejo 
+de cines. Por cada función se conoce:cantidad de espectadores y descuento(S/N).La carga 
+termina cuando la cantidad de espectadores sea igual a 0(cero).El programa deberá:Calcular 
+la recaudación total del complejo,considerando que el valor de la entrada e sde$50en los días 
+con descuento y $75 en los días sin descuento.Determinar cuántas funciones con descuentos 
+efectuaron y qué porcentaje representan sobre el total de funciones.
+
+8. Ventas por sucursal. Ingresar una serie de números por teclado que representan la cantidad 
+de ventas realizadas en las diferentes sucursales de un país de una determinada empresa. Los 
+requerimientos del programa son: Informar la cantidad de ventas ingresadas. Total de ventas.
+Cantidad de ventas cuyo valores estén comprendidos entre 100 y 300 unidades. Cantidad de ventas 
+con 400,500 y 600 unidades. Indicar si hubo una cantidad de ventas inferior a 50 unidades. 
+Usted deberá ingresar cantidad es de ventas hasta que se ingrese un valor negativo.
+
+9. Promedio de números aleatorios: Realice un programa que permita calcular el promedio de 1000 
+números aleatorios generados en el rango de[0,100000].
+
+10. Búsqueda de mayor Realizar un programa que permita buscar el mayor de 10.000 números 
+aleatorios generados en el rango de[0,100.000].
+
+11. Menores y promedio Realizar un programa que genere 5000 numeros aleatorios en el rango 
+de [0,100000] y que permita:Determinar el menor de los numeros genera dos en forma aleatoria.
+Calcular el valor promedio de los números menores a 10.000.
+
+12. Números pares e impares Se pide desarrollar un programa que permita leer una serie de 
+números. La nalización de carga de datos se presenta cuando el usuario ingrese un número 
+negativo. Los requerimientos funcionales del programa son: La sumatoria de solo los números 
+que estén comprendidos entre 50 y 100. Cantidad de valores pares ingresados. Cantidad de 
+valores impares ingresados. Informar si en la carga de números se ingreso al menos un número 0. 
+Informar si la serie contiene solo números pares e impares alternados.
+
+13. Desarrollar un programa que permita procesar los datos del último censo de un apequeña 
+población.Por cada habitantes e ingresa:sexo(M/F)y edad. La carga de datos analiza al ingresar 
+cualquier otro valor para sexo. El programa debe informar:Aqué sexo corresponde la mayor 
+cantidad de habitantes(considerar que puede ser igual)Cantidad de mujeres en edad escolar
+(4 a 18 años inclusive)Si hay algún varón que supere los 80 años de edad.
